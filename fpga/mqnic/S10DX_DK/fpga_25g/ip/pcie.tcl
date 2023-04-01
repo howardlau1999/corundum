@@ -931,7 +931,7 @@ proc do_create_pcie {} {
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core16_virtio_start_byte_address_hwtcl} {72}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core16_virtual_drop_vendor0_msg_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core16_virtual_drop_vendor1_msg_hwtcl} {0}
-	set_instance_parameter_value intel_pcie_ptile_ast_0 {core16_virtual_ecrc_strip_user_hwtcl} {0}
+	# set_instance_parameter_value intel_pcie_ptile_ast_0 {core16_virtual_ecrc_strip_user_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core16_virtual_ep_native_hwtcl} {Native}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core16_virtual_hrdrstctrl_en_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core16_virtual_maxpayload_size_hwtcl} {512}
@@ -1099,7 +1099,7 @@ proc do_create_pcie {} {
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_0_user_vsec_cap_enable_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_0_virtual_drop_vendor0_msg_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_0_virtual_drop_vendor1_msg_hwtcl} {0}
-	set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_0_virtual_ecrc_strip_user_hwtcl} {0}
+	# set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_0_virtual_ecrc_strip_user_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_0_virtual_ep_native_hwtcl} {Native}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_0_virtual_hrdrstctrl_en_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_0_virtual_maxpayload_size_hwtcl} {512}
@@ -1192,7 +1192,7 @@ proc do_create_pcie {} {
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_1_user_vsec_cap_enable_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_1_virtual_drop_vendor0_msg_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_1_virtual_drop_vendor1_msg_hwtcl} {0}
-	set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_1_virtual_ecrc_strip_user_hwtcl} {0}
+	# set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_1_virtual_ecrc_strip_user_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_1_virtual_ep_native_hwtcl} {Native}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_1_virtual_hrdrstctrl_en_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core4_1_virtual_maxpayload_size_hwtcl} {512}
@@ -2078,7 +2078,7 @@ proc do_create_pcie {} {
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core8_virtio_start_byte_address_hwtcl} {72}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core8_virtual_drop_vendor0_msg_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core8_virtual_drop_vendor1_msg_hwtcl} {0}
-	set_instance_parameter_value intel_pcie_ptile_ast_0 {core8_virtual_ecrc_strip_user_hwtcl} {0}
+	# set_instance_parameter_value intel_pcie_ptile_ast_0 {core8_virtual_ecrc_strip_user_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core8_virtual_ep_native_hwtcl} {Native}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core8_virtual_hrdrstctrl_en_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {core8_virtual_maxpayload_size_hwtcl} {512}
@@ -2175,7 +2175,7 @@ proc do_create_pcie {} {
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {enable_example_design_synth_hwtcl} {1}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {enable_example_design_tb_hwtcl} {1}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {enable_switch_port_termination_hwtcl} {0}
-	set_instance_parameter_value intel_pcie_ptile_ast_0 {example_design_mode_hwtcl} {PIO/SRIOV}
+	# set_instance_parameter_value intel_pcie_ptile_ast_0 {example_design_mode_hwtcl} {PIO/SRIOV}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {g3_pld_clkfreq_user_hwtcl} {250MHz}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {g4_pld_clkfreq_user_hwtcl} {400MHz}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {hrc_cpll_ena_warm_reset_hwtcl} {disable}
@@ -2203,8 +2203,8 @@ proc do_create_pcie {} {
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {select_design_example_rtl_lang_hwtcl} {Verilog}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {serial_sim_hwtcl} {1}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {sim_mode_user_hwtcl} {0}
-	set_instance_parameter_value intel_pcie_ptile_ast_0 {standard_interface_selection_hwtcl} {1}
-	set_instance_parameter_value intel_pcie_ptile_ast_0 {subtopology_pcie_x8_hwtcl} {0}
+	# set_instance_parameter_value intel_pcie_ptile_ast_0 {standard_interface_selection_hwtcl} {1}
+	# set_instance_parameter_value intel_pcie_ptile_ast_0 {subtopology_pcie_x8_hwtcl} {0}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {sup_mode_hwtcl} {user_mode}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {targeted_devkit_hwtcl} {NONE}
 	set_instance_parameter_value intel_pcie_ptile_ast_0 {top_4_es_mode_hwtcl} {common_ref_clk}
@@ -2257,7 +2257,7 @@ proc do_create_pcie {} {
 	set_interface_property p0_config_tl EXPORT_OF intel_pcie_ptile_ast_0.p0_config_tl
 	set_interface_property p0_reset_status_n EXPORT_OF intel_pcie_ptile_ast_0.p0_reset_status_n
 	set_interface_property p0_pin_perst EXPORT_OF intel_pcie_ptile_ast_0.p0_pin_perst
-	set_interface_property p0_hip_status EXPORT_OF intel_pcie_ptile_ast_0.p0_hip_status
+	# set_interface_property p0_hip_status EXPORT_OF intel_pcie_ptile_ast_0.p0_hip_status
 	set_interface_property hip_serial EXPORT_OF intel_pcie_ptile_ast_0.hip_serial
 	set_interface_property coreclkout_hip EXPORT_OF intel_pcie_ptile_ast_0.coreclkout_hip
 	set_interface_property refclk0 EXPORT_OF intel_pcie_ptile_ast_0.refclk0

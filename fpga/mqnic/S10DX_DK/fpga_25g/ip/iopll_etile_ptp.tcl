@@ -111,9 +111,9 @@ proc do_create_iopll_etile_ptp {} {
 	set_instance_parameter_value iopll_0 {gui_en_adv_params} {0}
 	set_instance_parameter_value iopll_0 {gui_en_dps_ports} {0}
 	set_instance_parameter_value iopll_0 {gui_en_extclkout_ports} {0}
-	set_instance_parameter_value iopll_0 {gui_en_iossm_reconf} {0}
+	# set_instance_parameter_value iopll_0 {gui_en_iossm_reconf} {0}
 	set_instance_parameter_value iopll_0 {gui_en_lvds_ports} {Disabled}
-	set_instance_parameter_value iopll_0 {gui_en_periphery_ports} {0}
+	# set_instance_parameter_value iopll_0 {gui_en_periphery_ports} {0}
 	set_instance_parameter_value iopll_0 {gui_en_phout_ports} {0}
 	set_instance_parameter_value iopll_0 {gui_en_reconf} {0}
 	set_instance_parameter_value iopll_0 {gui_enable_cascade_in} {0}
@@ -121,7 +121,7 @@ proc do_create_iopll_etile_ptp {} {
 	set_instance_parameter_value iopll_0 {gui_enable_mif_dps} {0}
 	set_instance_parameter_value iopll_0 {gui_enable_output_counter_cascading} {0}
 	set_instance_parameter_value iopll_0 {gui_enable_permit_cal} {0}
-	set_instance_parameter_value iopll_0 {gui_enable_upstream_out_clk} {0}
+	# set_instance_parameter_value iopll_0 {gui_enable_upstream_out_clk} {0}
 	set_instance_parameter_value iopll_0 {gui_existing_mif_file_path} {~/pll.mif}
 	set_instance_parameter_value iopll_0 {gui_extclkout_0_source} {C0}
 	set_instance_parameter_value iopll_0 {gui_extclkout_1_source} {C0}
@@ -251,7 +251,7 @@ proc do_create_iopll_etile_ptp {} {
 	set_instance_parameter_value iopll_0 {gui_refclk_switch} {0}
 	set_instance_parameter_value iopll_0 {gui_reference_clock_frequency} {100.0}
 	set_instance_parameter_value iopll_0 {gui_reference_clock_frequency_ps} {10000.0}
-	set_instance_parameter_value iopll_0 {gui_simulation_type} {0}
+	# set_instance_parameter_value iopll_0 {gui_simulation_type} {0}
 	set_instance_parameter_value iopll_0 {gui_skip_sdc_generation} {0}
 	set_instance_parameter_value iopll_0 {gui_switchover_delay} {0}
 	set_instance_parameter_value iopll_0 {gui_switchover_mode} {Automatic Switchover}
